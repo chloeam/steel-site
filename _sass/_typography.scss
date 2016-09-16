@@ -1,0 +1,45 @@
+/* TYPOGRAPHY */
+
+// Variables
+$type-huge: $base-font-size * 4;
+$type-xlarge: $base-font-size * 3;
+$type-large: $base-font-size * 2;
+$type-regular: $base-font-size;
+$type-small: $base-font-size / 2;
+$type-xsmall: $base-font-size / 3;
+$type-teeny: $base-font-size / 4;
+
+%type-huge {
+  font-size: $type-huge;
+  line-height: $type-huge * 1.5
+}
+
+%type-xlarge {
+  font-size: $type-xlarge;
+  line-height: $type-xlarge * 1.5
+}
+
+%type-large {
+  font-size: $type-large;
+  line-height: $type-large * 1.5
+}
+
+%type-regular {
+  font-size: $type-regular;
+  line-height: $type-regular * 1.5
+}
+
+%type-small {
+  font-size: $type-small;
+  line-height: $type-small * 1.5
+}
+
+%type-xsmall {
+  font-size: $type-xsmall;
+  line-height: $type-xsmall * 1.5
+}
+
+%type-teeny {
+  font-size: $type-teeny;
+  line-height: $type-teeny * 1.5
+}
