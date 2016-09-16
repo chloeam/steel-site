@@ -371,7 +371,7 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: #111;
-  background-color: #FCFAE1;
+  background-color: #e8e8e8;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #52144B;
+  color: #9966ff;
   text-decoration: none; }
   a:hover {
     color: #111;
