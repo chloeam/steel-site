@@ -11,6 +11,15 @@
 //   -webkit-text-size-adjust: 100%;
 // }
 
+body {
+  font-family: $base-font;
+  font-size: 16px;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background: $background-color;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */

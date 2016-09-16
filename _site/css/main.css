@@ -54,6 +54,14 @@ html {
 /**
  * Basic styling
  */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #111;
+  background: #e8e8e8; }
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -78,6 +86,40 @@ html {
 /**
  * Icons
  */
+/* TYPOGRAPHY */
+p {
+  margin-bottom: 24px; }
+
+.type-large {
+  font-size: 1.5em; }
+
+.type-small {
+  font-size: .667em; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .container p:first-child {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .container p:first-child:last-child {
+      margin-right: 0; }
+  .container p:last-child {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-right: 0; }
+    .container p:last-child:last-child {
+      margin-right: 0; }
+
 /**
  * Syntax highlighting styles
  */
