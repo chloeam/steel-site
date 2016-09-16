@@ -1,0 +1,13 @@
+# Site settings
+title: Steel SCSS Framework
+email: chloe793@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  An SCSS library built on Bourbon and Neat
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: chloeam
+github_username: chloeam
+repo: https://github.com/chloeam/steel-site
+
+# Build settings
+markdown: kramdown
