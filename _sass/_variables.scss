@@ -2,8 +2,8 @@ $base-font-size: 16px;
 
 // LAYOUT
 
-$modular-scale: 1.5;
-$spacing-unit: $base-font-size * $modular-scale;
+$modular-scale-ratio: 1.5;
+$spacing-unit: $base-font-size * $modular-scale-ratio;
 
 // TYPOGRAPHY
 

@@ -94,7 +94,10 @@ p {
   font-size: 1.5em; }
 
 .type-small {
-  font-size: .667em; }
+  font-size: 0.66667em; }
+
+.type-xhuge {
+  font-size: 5.0625em; }
 
 .container {
   max-width: 68em;

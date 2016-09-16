@@ -88,12 +88,15 @@ p {
 }
 
 .type-large {
-  font-size: 1.5em;
-  // margin-bottom: $spacing-unit;
+  font-size: modular-scale(1);
 }
 
 .type-small {
-  font-size: .667em;
+  font-size: modular-scale(-1);
+}
+
+.type-xhuge {
+  font-size: modular-scale(4);
 }
 
 // Testing
