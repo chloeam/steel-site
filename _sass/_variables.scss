@@ -10,7 +10,7 @@ $spacing-unit: $base-font-size * $modular-scale-ratio;
 $base-font: "Source Sans Pro", sans-serif;
 $alt-font: "Alegreya", serif;
 $caption-font: $base-font;
-$base-line-height: $spacing-unit;
+$base-line-height: $modular-scale-ratio;
 
 // UI COLORS
 
