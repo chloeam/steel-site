@@ -55,14 +55,14 @@ html {
  * Basic styling
  */
 body {
-  font-family: "Alegreya", serif;
+  font-family: "Vollkorn", serif;
   font-size: 18px;
   line-height: 1.667;
   font-weight: 300;
   color: #111;
   background-image: linear-gradient(to bottom, cyan 0, rgba(255, 255, 255, 0) 1px);
   background-repeat: repeat-y;
-  background-size: 100% 30px; }
+  background-size: 100% 15px; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -90,31 +90,31 @@ body {
  */
 /* TYPOGRAPHY */
 p {
-  margin-bottom: 30.006px; }
+  margin-bottom: 15.003px; }
 
 .type-large {
   font-size: 1.667em;
-  line-height: 60.012px; }
+  line-height: 45.009px; }
 
 .type-xlarge {
   font-size: 2.77889em;
-  line-height: 60.012px; }
+  line-height: 30.006px; }
 
 .type-huge {
   font-size: 4.63241em;
-  line-height: 90.018px; }
+  line-height: 45.009px; }
 
 .type-small {
   font-size: 0.59988em;
-  line-height: 30.006px; }
+  line-height: 15.003px; }
 
 .type-xsmall {
   font-size: 0.35986em;
-  line-height: 30.006px; }
+  line-height: 15.003px; }
 
 .type-xhuge {
   font-size: 7.72222em;
-  line-height: 120.024px; }
+  line-height: 60.012px; }
 
 .container {
   max-width: 68em;

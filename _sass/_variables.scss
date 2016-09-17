@@ -11,12 +11,12 @@ $huge: 1500px;
 
 $base-font-size: 18px;
 $modular-scale-ratio: 1.667;
-$spacing-unit: $base-font-size * $modular-scale-ratio;
+$spacing-unit: $base-font-size * $modular-scale-ratio / 2;
 
 // TYPOGRAPHY
 
-$base-font: "Alegreya", serif;
-$alt-font: "Source Sans Pro", sans-serif;
+$base-font: "Vollkorn", serif;
+$alt-font: "Montserrat", sans-serif;
 $caption-font: $base-font;
 $base-line-height: $modular-scale-ratio;
 
