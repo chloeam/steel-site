@@ -17,7 +17,10 @@ body {
   line-height: $base-line-height;
   font-weight: 300;
   color: $text-color;
-  background: $background-color;
+  // background: $background-color;
+  background-image: linear-gradient(to bottom, cyan 0, rgba(255,255,255,0) 1px);
+  background-repeat: repeat-y;
+  background-size: 100% 30px;
 }
 
 /**
