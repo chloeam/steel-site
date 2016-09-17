@@ -55,9 +55,9 @@ html {
  * Basic styling
  */
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+  line-height: 1.667;
   font-weight: 300;
   color: #111;
   background: #e8e8e8; }
@@ -88,31 +88,31 @@ body {
  */
 /* TYPOGRAPHY */
 p {
-  margin-bottom: 24px; }
+  margin-bottom: 30.006px; }
 
 .type-large {
-  font-size: 1.5em;
-  line-height: 48px; }
+  font-size: 1.667em;
+  line-height: 60.012px; }
 
 .type-xlarge {
-  font-size: 2.25em;
-  line-height: 48px; }
+  font-size: 2.77889em;
+  line-height: 60.012px; }
 
 .type-huge {
-  font-size: 3.375em;
-  line-height: 72px; }
+  font-size: 4.63241em;
+  line-height: 90.018px; }
 
 .type-small {
-  font-size: 0.66667em;
-  line-height: 24px; }
+  font-size: 0.59988em;
+  line-height: 30.006px; }
 
 .type-xsmall {
-  font-size: 0.44444em;
-  line-height: 24px; }
+  font-size: 0.35986em;
+  line-height: 30.006px; }
 
 .type-xhuge {
-  font-size: 5.0625em;
-  line-height: 96px; }
+  font-size: 7.72222em;
+  line-height: 120.024px; }
 
 .container {
   max-width: 68em;

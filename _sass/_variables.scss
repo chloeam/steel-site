@@ -1,14 +1,22 @@
-$base-font-size: 16px;
+// BREAKPOINTS
 
-// LAYOUT
+$xsmall: 450px;
+$small: 600px;
+$medium: 800px;
+$large: 1000px;
+$xlarge: 1280px;
+$huge: 1500px;
 
-$modular-scale-ratio: 1.5;
+// GRID AND VERTICAL RHYTHM
+
+$base-font-size: 18px;
+$modular-scale-ratio: 1.667;
 $spacing-unit: $base-font-size * $modular-scale-ratio;
 
 // TYPOGRAPHY
 
-$base-font: "Source Sans Pro", sans-serif;
-$alt-font: "Alegreya", serif;
+$base-font: "Alegreya", serif;
+$alt-font: "Source Sans Pro", sans-serif;
 $caption-font: $base-font;
 $base-line-height: $modular-scale-ratio;
 
@@ -45,12 +53,3 @@ $codepen-color: #fff;
 $tumblr-color: #35465c;
 $email-color: #dd4b39;
 $rss-color: #fa9b39;
-
-// BREAKPOINTS
-
-$xsmall: 450px;
-$small: 600px;
-$medium: 800px;
-$large: 1000px;
-$xlarge: 1280px;
-$huge: 1500px;
