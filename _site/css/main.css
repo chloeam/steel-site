@@ -92,6 +92,10 @@ body {
 p {
   margin-bottom: 15.003px; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
 .type-large {
   font-size: 1.667em;
   line-height: 45.009px; }

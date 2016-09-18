@@ -19,6 +19,11 @@ p {
   @extend %break;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $alt-font;
+  font-weight: 700;
+}
+
 .type-large {
   font-size: modular-scale(1);
   line-height: $spacing-unit * 3;
