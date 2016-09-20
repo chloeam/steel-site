@@ -88,13 +88,13 @@
       user-select: none;
 
       border-bottom: 0.1rem solid darken($white, 15%);
-      color: $linkColour;
+      color: $linkColor;
       cursor: pointer;
       display: block;
       padding: 10px 3%;
 
       &:hover, &:active, &:focus {
-        background-color: $linkColour;
+        background-color: $linkColor;
         color: $white;
       }
     }
@@ -111,13 +111,13 @@
 
       a, span {
         border: 0;
-        color: $captionColour;
+        color: $captionColor;
         display: inline;
         padding: 0;
 
         &:hover, &:active, &:focus {
           background-color: transparent;
-          color: $linkColour;
+          color: $linkColor;
         }
       }
     }
