@@ -3,20 +3,26 @@
 ---
 @charset "utf-8";
 
-@import "variables";
+// @import "variables";
 
 // VENDOR
-@import "reset";
-@import "sassline-base";
-@import "bourbon/bourbon";
-@import "neat/neat";
+// @import "reset";
+// @import "bourbon/bourbon";
+// @import "neat/neat";
 
 // GLOBAL
 @import "base";
-@import "typography";
+// @import "typography";
+@import "sassline-base";
+
+@import "modules/globals";
+@import "modules/nav";
+@import "modules/header";
+@import "modules/footer";
+@import "modules/show-grid";
 
 // COMPONENTS
-@import "syntax-highlighting";
+// @import "syntax-highlighting";
 
 // MODULES
 

@@ -3,26 +3,26 @@
 // Variables
 
 
-%break {
-  margin-bottom: $spacing-unit;
-}
+// %break {
+//   margin-bottom: $spacing-unit;
+// }
+//
+// %big-break {
+//   margin-bottom: $spacing-unit * 2;
+// }
+//
+// %no-break {
+//   margin-bottom: 0;
+// }
+//
+// p {
+//   @extend %break;
+// }
 
-%big-break {
-  margin-bottom: $spacing-unit * 2;
-}
-
-%no-break {
-  margin-bottom: 0;
-}
-
-p {
-  @extend %break;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $alt-font;
-  font-weight: 700;
-}
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: $alt-font;
+//   font-weight: 700;
+// }
 
 // .type-large {
 //   font-size: modular-scale(1);
@@ -56,15 +56,15 @@ h1, h2, h3, h4, h5, h6 {
 
 // Testing
 
-.container {
-  @include outer-container;
-
-  p:first-child {
-    @include span-columns(6);
-  }
-
-  p:last-child {
-    @include span-columns(6);
-    @include omega;
-  }
-}
+// .container {
+//   @include outer-container;
+//
+//   p:first-child {
+//     @include span-columns(6);
+//   }
+//
+//   p:last-child {
+//     @include span-columns(6);
+//     @include omega;
+//   }
+// }
