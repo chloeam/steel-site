@@ -1,0 +1,52 @@
+@mixin button($btnColor, $btnHover) {
+  background-color: $btnColor;
+  color: $buttonTextColor;
+  border-radius: $borderRadius;
+  font-family: unquote(map-get($buttontype, font-family));
+  font-weight: map-get($buttontype, regular);
+  @include fontsize(theta, all);
+  padding: 0.7em 1.3em; //hack to make it sort of align
+
+  &:hover {
+    background-color: $btnHover;
+    color: $buttonTextColor;
+  }
+}
+
+%button {
+  @include button($buttonColor, $buttonHoverColor);
+}
+
+%button-success {
+  @include button($successColor, darken($successColor, 10%));
+}
+
+%button-info {
+  @include button($infoColor, darken($infoColor, 10%));
+}
+
+%button-tip {
+  @include button($tipColor, darken($tipColor, 10%));
+}
+
+%button-warning {
+  @include button($warningColor, darken($warningColor, 10%));
+}
+
+%button-fill {
+  @extend %button;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@mixin button-hollow($btnColor) {
+  @extend %button;
+  background-color: $backgroundColor;
+  color: $black;
+  border: 2px solid $btnColor;
+
+  &:hover {
+    background-color: $btnColor;
+  }
+}

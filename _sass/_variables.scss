@@ -69,6 +69,8 @@ $monospacetype: (
 
 $captiontype: $headingtype !default;
 
+$buttontype: $headingtype !default;
+
 // Weight for headings. Change from bold to regular, or any other weight.
 $headingWeight: map-get($headingtype, bold) !default;
 
@@ -87,6 +89,10 @@ $measures: (
   measure-4: 750   // 750px wide
 ) !default;
 
+// OTHER CUSTOMIZATION
+
+// border radius for elements such as buttons and modules
+$borderRadius: 5px !default;
 
 // COLORS
 
@@ -111,6 +117,7 @@ $linkColor: $primaryColor !default;
 $hoverColor: darken($primaryColor, 10%) !default;
 $buttonColor: $linkColor !default;
 $buttonHoverColor: $hoverColor !default;
+$buttonTextColor: $white !default;
 
 $successColor: #6cc644;
 $infoColor: #358BDB;

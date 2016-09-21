@@ -6,6 +6,13 @@ Once this project is completed, it will be a UI pattern library featuring clean,
 
 It was made by [Chloe Atchue-Mamlet](http://chloeam.com/) using [Jekyll](http://jekyllrb.com/).
 
+# Roadmap
+
+- Multiple button sizes
+- Buttons for various screen sizes
+- Testing on every element
+- Make sure mixin use is as efficient as possible
+
 # Docs (Under Construction)
 
 ## Getting started

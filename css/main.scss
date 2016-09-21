@@ -16,12 +16,14 @@
 @import "layouts";
 
 @import "globals";
-@import "header";
-@import "footer";
+
 
 // COMPONENTS
+@import "buttons";
 @import "syntax-highlighting";
 
 // MODULES
+@import "header";
+@import "footer";
 
 // PAGES
