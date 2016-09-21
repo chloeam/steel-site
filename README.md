@@ -12,6 +12,20 @@ It was made by [Chloe Atchue-Mamlet](http://chloeam.com/) using [Jekyll](http://
 - Buttons for various screen sizes
 - Testing on every element
 - Make sure mixin use is as efficient as possible
+- Better layout and grid system
+  - photos: full width, centered small, etc.
+  - easy way to make 2 and 3 columns
+- Photo captions
+- Notices
+- Table of Contents
+- Heading variations
+- Headers
+- Footers
+- Form elements
+- Blockquotes
+- Pull quotes
+- Tables
+
 
 # Docs (Under Construction)
 
