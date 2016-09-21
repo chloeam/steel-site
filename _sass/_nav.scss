@@ -43,16 +43,6 @@
   pointer-events: none;
 }
 
-.nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  user-select: none;
-
-  @include breakpoint(break-1) {
-    display: none;
-  }
-}
-
 // Demo overrides.
 .main-nav {
 

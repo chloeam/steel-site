@@ -2,24 +2,23 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-// @import "variables";
+@import "variables";
 
 // VENDOR
-// @import "reset";
-// @import "bourbon/bourbon";
-// @import "neat/neat";
+@import "reset";
+@import "bourbon/bourbon";
+@import "neat/neat";
 
-// GLOBAL
 
-// @import "typography";
-@import "sassline-base";
+@import "modular-scale";
+@import "mixins";
+@import "typography";
+@import "layouts";
 
-@import "modules/globals";
-@import "modules/nav";
-@import "modules/header";
-@import "modules/footer";
-@import "modules/show-grid";
+@import "globals";
+@import "nav";
+@import "header";
+@import "footer";
 
 // COMPONENTS
 @import "syntax-highlighting";

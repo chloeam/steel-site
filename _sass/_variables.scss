@@ -1,0 +1,140 @@
+// BREAKPOINTS
+
+// Breakpoint sizes from px to ems. Add more values here to add more breakpoints.
+// Change names if you prefer, it wont break the mixin as long as they are strings not just numbers.
+$breakpoints: (
+  break-0: 0,     // 0px       Mobile first
+  break-1: 640,   // 640px   ~ Small tablet up
+  break-2: 800,   // 800px   ~ Large tablet up
+  break-3: 1024,  // 1024px  ~ Desktop up
+  break-4: 1600   // 1600px  ~ Large desktop up
+) !default;
+
+
+// LAYOUT
+
+// Set the max-widths for containers (based on design).
+// ! Make sure to have as many widths as breakpoints above.
+$maxwidths: (
+  width-0: 500,  // 500px wide
+  width-1: 600,  // 600px wide
+  width-2: 800,  // 800px wide
+  width-3: 1100, // 110px wide
+  width-4: 1300  // 1300px wide
+) !default;
+
+// Gutter widths
+$gutterwidths: (
+  small: 1rem,
+  medium: 2rem,
+  large: 4rem
+) !default;
+
+
+// VERTICAL RHYTHM AND BASELINE ALIGNMENT
+
+// Root font-sizes for each breakpoint. Set to half desired line-height of body text.
+// ! Make sure to have as many sizes as breakpoints above.
+$rootsizes: (
+  rootsize-0: 12,   // 24px line-height body text
+  rootsize-1: 14,   // 28px line-height body text
+  rootsize-2: 16,   // 32px line-height body text
+  rootsize-3: 18,   // 36px line-height body text
+  rootsize-4: 19    // 38px line-height body text
+) !default;
+
+
+// TYPOGRAPHY
+
+$bodytype: (
+  font-family: 'Vollkorn, serif',
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.6
+) !default;
+
+$headingtype: (
+  font-family: 'Montserrat, sans-serif',
+  regular: 400,
+  bold: 700,
+  cap-height: 0.8
+) !default;
+
+$monospacetype: (
+  font-family: 'Menlo, monospace',
+  regular: 400,
+  cap-height: 0.68
+) !default;
+
+// Weight for headings. Change from bold to regular, or any other weight.
+$headingWeight: map-get($headingtype, bold) !default;
+
+// If you want to change the default behavior of italicizing <i> and bolding <em>, do it here.
+$iStyle: map-get($bodytype, italic) !default;
+$emStyle: map-get($bodytype, bold) !default;
+
+// Set the optimum line-length for your text (based on typeface).
+// Aim for 75–100 characters a line when possible, at smaller sizes type size is more important.
+// ! Make sure to have as many widths as breakpoints above.
+$measures: (
+  measure-0: 500,  // 500px wide
+  measure-1: 550,  // 550px wide
+  measure-2: 600,  // 600px wide
+  measure-3: 680,  // 680px wide
+  measure-4: 750   // 750px wide
+) !default;
+
+
+// COLORS
+
+// Basic Colors
+$white: #FFF !default;
+$black: #000 !default;
+$gray: #7D7D7D !default;
+$grayLight: lighten($gray, 30%) !default;
+$grayDark: darken($gray, 25%) !default;
+
+// Brand Colors
+$primaryColor: #788ED6;
+$secondaryColor: #F0E489;
+$tertiaryColor: #F5AED9;
+
+// UI Colors
+$backgroundColor: #FCFCFC !default;
+$textColor: #494949 !default;
+$headingColor: $textColor !default;
+$captionColor: $grayLight !default;
+$linkColor: $primaryColor !default;
+$hoverColor: darken($primaryColor, 10%) !default;
+$buttonColor: $linkColor !default;
+$buttonHoverColor: $hoverColor !default;
+
+$successColor: #6cc644;
+$infoColor: #358BDB;
+$tipColor: #ff9933;
+$warningColor: #bd2c00;
+
+// Social media colors (for button and icon use)
+$twitterColor: rgba(85, 172, 238, 1);
+$behanceColor: #1769ff;
+$githubColor: #333333;
+$instagramColor: #3f729b;
+$linkedinColor: #0077b5;
+$codepenColor: #fff;
+$tumblrColor: #35465c;
+$emailColor: #dd4b39;
+$rssColor: #fa9b39;
+
+// Code colors
+$codeBackgroundColor: #F5F4F2 !default;
+$highlightDefault: #655f6d;
+$highlightComment: #8b8792;
+$highlightRed: #be4678;
+$highlightOrange: #f5871f;
+$highlightYellow: #eab700;
+$highlightGreen: #2a9292;
+$highlightAqua: #398bc6;
+$highlightBlue: #576ddb;
+$highlightPurple: #955ae7;
+$highlightLinenumbers: #ccc;
