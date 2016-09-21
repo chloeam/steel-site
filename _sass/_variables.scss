@@ -67,12 +67,14 @@ $monospacetype: (
   cap-height: 0.68
 ) !default;
 
+$captiontype: $headingtype !default;
+
 // Weight for headings. Change from bold to regular, or any other weight.
 $headingWeight: map-get($headingtype, bold) !default;
 
-// If you want to change the default behavior of italicizing <i> and bolding <em>, do it here.
-$iStyle: map-get($bodytype, italic) !default;
-$emStyle: map-get($bodytype, bold) !default;
+// If you want to change the default behavior of italicizing <em> and bolding <strong>, do it here.
+$emStyle: map-get($bodytype, italic) !default;
+$strongStyle: map-get($bodytype, bold) !default;
 
 // Set the optimum line-length for your text (based on typeface).
 // Aim for 75–100 characters a line when possible, at smaller sizes type size is more important.
