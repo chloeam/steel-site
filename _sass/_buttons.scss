@@ -13,7 +13,7 @@
   }
 }
 
-%button {
+.button {
   @include button($buttonColor, $buttonHoverColor);
 }
 
@@ -34,14 +34,14 @@
 }
 
 %button-fill {
-  @extend %button;
+  @extend .button;
   display: block;
   width: 100%;
   text-align: center;
 }
 
 @mixin button-hollow($btnColor) {
-  @extend %button;
+  @extend .button;
   background-color: $backgroundColor;
   color: $black;
   border: 2px solid $btnColor;

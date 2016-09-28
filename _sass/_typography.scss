@@ -351,6 +351,7 @@ code {
   font-feature-settings: 'smcp', 'kern';
   font-kerning: normal;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 // Consistent height numbers with OpenType.
@@ -361,4 +362,9 @@ code {
 // Ascending and descending numbers with OpenType.
 .oldstyle-numerals {
   font-feature-settings: 'onum', 'kern';
+}
+
+// Lead paragraphs
+.lead {
+  @include sassline(gamma, $bodytype, 2, 1, all);
 }
