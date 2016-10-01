@@ -1,1 +1,35 @@
+header {
+  h1 {
+    display: inline-block;
+  }
+}
 
+#burger {
+  z-index: 1000;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 14px;
+  width: 30px;
+
+  span {
+    display: block;
+    background: $primaryColor;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+
+    &:nth-child(1) {
+      top: 0px;
+    }
+
+    &:nth-child(2) {
+      top: 7px;
+    }
+
+    &:nth-child(3) {
+      top: 14px;
+    }
+  }
+}
