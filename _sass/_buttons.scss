@@ -4,8 +4,8 @@
   border-radius: $borderRadius;
   font-family: unquote(map-get($buttontype, font-family));
   font-weight: map-get($buttontype, regular);
-  @include fontsize(theta, all);
-  padding: 0.7em 1.3em; //hack to make it sort of align
+  @include sassline(theta, $bodytype, 1, 1, all);
+  padding: 0 0.7em 0.5em 0.7em;
 
   &:hover {
     background-color: $btnHover;
