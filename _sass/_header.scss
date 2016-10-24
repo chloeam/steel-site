@@ -1,6 +1,86 @@
 header {
+  position: relative;
+  @include outer-container();
+
   h1 {
+    @include fontsize(delta, all);
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
     display: inline-block;
+    line-height: 3em;
+
+    @include breakpoint(break-1) {
+      @include span-columns(6);
+      margin-left: 0;
+      padding-left: 2rem;
+      line-height: 4em;
+    }
+  }
+}
+
+.main-nav {
+  background-color: $primaryColor;
+  display: none;
+
+  ul {
+    margin: 0;
+    margin-left: 2rem;
+    padding: 1em 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 0.5em 0;
+  }
+
+  a {
+    color: $backgroundColor;
+    text-shadow: none;
+    background-image: none;
+    font-family: unquote(map-get($headingtype, font-family));
+    @include fontsize(theta, all);
+
+    &:hover {
+      background-image: none;
+    }
+  }
+
+  @include breakpoint(break-1) {
+    display: inline-block;
+    background-color: transparent;
+    @include span-columns(6);
+    @include omega();
+
+    ul {
+      padding: 0;
+      text-align: right;
+      margin-left: 0;
+    }
+
+    li {
+      display: inline-block;
+      padding-right: 2rem;
+    }
+
+    a {
+      color: $textColor;
+      line-height: 5em;
+      padding-bottom: 5px;
+
+      &:hover {
+        border-bottom: 2px solid $textColor;
+      }
+
+      @include breakpoint(break-3) {
+        line-height: 6em;
+      }
+    }
+
+    .current {
+      border-bottom: 2px solid $primaryColor;
+    }
   }
 }
 
@@ -8,10 +88,18 @@ header {
   z-index: 1000;
   display: inline-block;
   position: absolute;
-  top: 30px;
-  right: 30px;
+  // top: 50%;
+  // transform: translateY(-50%);
+  top: 23px;
+  right: 2em;
+  vertical-align: middle;
   height: 14px;
   width: 30px;
+  cursor: pointer;
+
+  // @include breakpoint(break-1) {
+  //   display: none;
+  // }
 
   span {
     display: block;
@@ -22,14 +110,41 @@ header {
 
     &:nth-child(1) {
       top: 0px;
+      transition: transform 400ms ease-in-out;
     }
 
     &:nth-child(2) {
       top: 7px;
+      transition: transform 400ms ease-in-out;
+      transition-delay: 500ms;
     }
 
     &:nth-child(3) {
       top: 14px;
+      transition: transform 400ms ease-in-out;
     }
+  }
+
+  &.open {
+    span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    	transition: transform 400ms ease-in-out;
+    	transition-delay: 500ms;
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+    	transition: opacity 400ms ease-in-out;
+    }
+
+    span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    	transition: transform 400ms ease-in-out;
+    	transition-delay: 500ms;
+    }
+  }
+
+  @include breakpoint(break-1) {
+    display: none;
   }
 }
