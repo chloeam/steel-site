@@ -4,8 +4,19 @@
   border-radius: $borderRadius;
   font-family: unquote(map-get($buttontype, font-family));
   font-weight: map-get($buttontype, regular);
-  @include sassline(theta, $bodytype, 1, 1, all);
-  padding: 0 0.7em 0.5em 0.7em;
+  @include sassline(eta, $bodytype, 2, 2, all);
+  display: inline-block;
+  // @include baseline(theta, $bodytype, 3, 3, all);
+  // @include baseline(theta, $buttontype, 2, 2, all);
+  // margin-bottom: 0;
+  // padding-top: 0;
+  // padding: 0 0.7em 0.5em 0.7em;
+  // @include fontsize(theta, all);
+  line-height: 1rem;
+  padding: 1em 3em;
+  // margin-bottom: 8em;
+  // margin-bottom: 8em;
+  // padding-top: 2em;
 
   &:hover {
     background-color: $btnHover;
